@@ -186,10 +186,13 @@ img{
   }
   
   .map_img {
-    margin-top: 5px; /* Space above the map image */
+    margin-top: -1  4px; /* Space above the map image */
    border-radius: 15px;
-   width: fit-content;
-   height: 250px;
+   width: 100%;
+   height: 350px;
+   display: flex;
+   align-self: center;
+   justify-self: center;
   }
 .job-overview {
     background-color: #4540de10;
@@ -198,6 +201,8 @@ img{
     padding: 15px;
     border-radius: 20px;
     border: 1px solid #e9ecef;
+    display: flex;
+    flex-direction: column;
 }
 
 .job-overview h3 {
